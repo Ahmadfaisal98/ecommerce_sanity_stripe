@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { BsBagCheckFill } from 'react-icons/bs';
-import { UseRouter } from 'next/router';
 
 import { useStateContext } from '../context/StateContext';
 import { runFireWorks } from '../lib/utils';
